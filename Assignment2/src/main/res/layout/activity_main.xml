@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginBottom="8dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/playerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/playerName"
+        android:inputType="textPersonName" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioGoalie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Goalie"
+            android:textColor="@android:color/black" />
+
+        <RadioButton
+            android:id="@+id/radioDefence"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Defence"
+            android:textColor="@android:color/black" />
+
+        <RadioButton
+            android:id="@+id/radioForward"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Forward"
+            android:textColor="@android:color/black" />
+    </RadioGroup>
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="30dp" />
+
+    <EditText
+        android:id="@+id/goalsNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/goalsNum"
+        android:inputType="number" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/saveBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="saveRecord"
+            android:text="@string/btnSave" />
+
+        <Button
+            android:id="@+id/viewBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="viewRecord"
+            android:text="@string/btnView" />
+    </LinearLayout>
+</LinearLayout>

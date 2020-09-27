@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">HeonLee_Assignment2</string>
+    <string name="playerName">Player Name</string>
+    <string name="Goalie">Goalie</string>
+    <string name="Defence">Defence</string>
+    <string name="Forward">Forward</string>
+    <string name="goalsNum">Number of Goals</string>
+    <string name="btnSave">Save</string>
+    <string name="btnView">View All</string>
+    <string name="aboutMenu">About</string>
+</resources>
