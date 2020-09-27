@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Assignment1</string>
+    <string name="amountLabel">Amount</string>
+    <string name="tipLabel">Tip %</string>
+    <string name="peopleLabel"># People</string>
+    <string name="tipResultLabel">Tip is:</string>
+    <string name="result">$</string>
+    <string name="title">Tips and Split Bills</string>
+    <string name="totalResultLabel">Total is:</string>
+    <string name="perPersonLabel">Per Person:</string>
+    <string name="calculateButton">Calculate</string>
+    <string name="clearButton">Clear</string>
+</resources>
